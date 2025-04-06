@@ -17,4 +17,4 @@ The dataset with the experimental results lies in `experiment_results.csv`.
 
 ## Conclusions
 
-As a result of my work, I've managed to show that overlapping is an important parameter for FixedTokenChunker, it significantly improves the result, nut increases the number of chunks. One can see that an overlapping part of a quarter of a chunk size is enough. Additionally, the results show that precision decreases with the growth of the retrieved chunks number. The best results (in trems ofprecision/recall) were achieved be FixedTokenChunker with chunk size of 125, 3 retrieved chunks and an overlapping part of 0.25 of a chunk size. 
+As a result of my work, I've managed to show that overlapping is an important parameter for FixedTokenChunker, it significantly improves the result, nut increases the number of chunks. One can see that an overlapping part of a quarter of a chunk size is enough. Additionally, the results show that precision decreases with the growth of the retrieved chunks number. The best results (in terms of precision/recall) were achieved be FixedTokenChunker with chunk size of 125, 3 retrieved chunks and an overlapping part of 0.25 of a chunk size. 
